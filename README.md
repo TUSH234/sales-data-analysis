@@ -46,7 +46,7 @@ Grouped & sorted data by Year and Month.
  Files in Repository
 * README.md – Project documentation
 
-* sales.sql – SQL queries used for analysis.
+* sales data.sql – SQL queries used for analysis.
 
 * online_sales.csv – Source dataset.
 
