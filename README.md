@@ -34,6 +34,9 @@ SELECT
     MONTH(order_date_new) AS sales_month,
     SUM(amount) AS total_revenue,
     COUNT(DISTINCT order_id) AS total_orders
+    FROM online_sales
+   GROUP BY sales_year, sales_month
+   ORDER BY sales_year, sales_month;
 
 * Learning Outcomes
 Imported and cleaned data in MySQL.
@@ -50,6 +53,3 @@ Grouped & sorted data by Year and Month.
 
 * online_sales.csv – Source dataset.
 
-FROM online_sales
-GROUP BY sales_year, sales_month
-ORDER BY sales_year, sales_month;
